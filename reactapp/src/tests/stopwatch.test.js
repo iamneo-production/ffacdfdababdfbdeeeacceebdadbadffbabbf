@@ -7,7 +7,7 @@ describe('Testing Stopwatch', () => {
     jest.setTimeout(30000);
 
 
-    test('FE_before_start', () => {
+    test('testcase1', () => {
         
         act(() => {
             render(<Stopwatch />);
@@ -25,7 +25,7 @@ describe('Testing Stopwatch', () => {
 
     }, 30000);
 
-    test('FE_running_stopwatch', async () => {
+    test('testcase2', async () => {
 
         
         act(() => {
