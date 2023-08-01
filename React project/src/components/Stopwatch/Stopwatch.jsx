@@ -41,7 +41,7 @@ const Stopwatch = (props) => {
 
 
     return <div>
-        <h1>Stopwatch</h1>
+        <h1> React Stopwatch</h1>
         <p data-testid="time">{(time.h >= 10) ? time.h : "0"+time.h}:
         {(time.m >= 10) ? time.m : "0"+time.m}:
         {(time.s >= 10) ? time.s : "0"+time.s}
